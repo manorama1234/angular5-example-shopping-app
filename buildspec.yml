@@ -4,7 +4,7 @@ phases:
   install:
     commands:
       - echo Installing NodeJs...
-      - apt install -y nodejs
+      - apt install nodejs
       - echo Installing npm...
       - apt install npm
   pre_build:
